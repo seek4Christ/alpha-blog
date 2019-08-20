@@ -43,7 +43,7 @@ group :development, :test do
   gem 'selenium-webdriver'
 end
 
-group production do
+group :production do
   gem 'pg'
 end
 
